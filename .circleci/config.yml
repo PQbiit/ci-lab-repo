@@ -7,5 +7,5 @@ workflows:
   app-testing:
     jobs:
       - node/test:
-        version: '16.10'
-        pkg-manager: npm
+          version: '16.10'
+          pkg-manager: npm
